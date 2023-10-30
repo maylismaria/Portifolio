@@ -1,0 +1,141 @@
+/*estilo da página index.html */
+
+#menu li{
+    display: inline;
+    padding: 15px;
+
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+#container{
+    background-color:lightpink;
+    border-radius: 20px 10px;
+}
+
+#container .logo .icone {
+    border-radius: 60px;
+    width: 80px;
+
+}
+#menu {
+    display: flex;
+    flex-flow: wrap-reverse;
+    justify-content: end;
+    align-items: end;
+    margin-top: -50px;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.containerSobre{
+    background-color: lightpink;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 10px;
+}
+
+.texto_sobre{
+    margin-left: 30px; 
+
+}
+
+.containerSobre .foto{
+    width: 200px;
+    border-radius: 60px;
+    padding: 20px;
+}
+
+ #video {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.redes_sociais{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+    border-radius: 20px 10px;
+}
+
+.icons{
+    width: 40px;
+    margin: 10px;
+}
+
+.by{
+    background-color: silver;
+    margin-top: -10px;
+    text-align: center;
+    border-radius: 20px 10px;
+}
+
+body {
+   margin: 0px 60px;
+   background-color: lightgray;
+}
+
+/*estilo da página index.html */
+
+#contato{
+    display: flex;
+}
+
+#formulario_mensagem {
+    flex: 1;    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: pink;
+    
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: pink;
+  }
+
+  button {
+    width: 100%;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+#formulario_buscacep{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+
